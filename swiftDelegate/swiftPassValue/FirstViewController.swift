@@ -47,3 +47,7 @@ class FirstViewController: UIViewController,passValueDelegate {
         return nameAgeString02
     }
 }
+
+
+
+

@@ -14,10 +14,11 @@
 		B49A294E21390BD900551684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49A294C21390BD900551684 /* LaunchScreen.storyboard */; };
 		B49A295621390D7400551684 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A295521390D7400551684 /* FirstViewController.swift */; };
 		B49A295A21390EDA00551684 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A295921390EDA00551684 /* SecondViewController.swift */; };
+		B4B05DA9213D141D00BC3F4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B05DA8213D141D00BC3F4A /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B49A294021390BD800551684 /* swiftDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49A294021390BD800551684 /* swiftPassValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftPassValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49A294321390BD800551684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49A294521390BD800551684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B49A294821390BD800551684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		B49A294F21390BD900551684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49A295521390D7400551684 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B49A295921390EDA00551684 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B4B05DA8213D141D00BC3F4A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,8 @@
 		B49A293721390BD800551684 = {
 			isa = PBXGroup;
 			children = (
-				B49A294221390BD800551684 /* swiftDelegate */,
+				B4B05DA8213D141D00BC3F4A /* Default-568h@2x.png */,
+				B49A294221390BD800551684 /* swiftPassValue */,
 				B49A294121390BD800551684 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +53,12 @@
 		B49A294121390BD800551684 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B49A294021390BD800551684 /* swiftDelegate.app */,
+				B49A294021390BD800551684 /* swiftPassValue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B49A294221390BD800551684 /* swiftDelegate */ = {
+		B49A294221390BD800551684 /* swiftPassValue */ = {
 			isa = PBXGroup;
 			children = (
 				B49A294321390BD800551684 /* AppDelegate.swift */,
@@ -67,15 +70,15 @@
 				B49A294C21390BD900551684 /* LaunchScreen.storyboard */,
 				B49A294F21390BD900551684 /* Info.plist */,
 			);
-			path = swiftDelegate;
+			path = swiftPassValue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B49A293F21390BD800551684 /* swiftDelegate */ = {
+		B49A293F21390BD800551684 /* swiftPassValue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B49A295221390BD900551684 /* Build configuration list for PBXNativeTarget "swiftDelegate" */;
+			buildConfigurationList = B49A295221390BD900551684 /* Build configuration list for PBXNativeTarget "swiftPassValue" */;
 			buildPhases = (
 				B49A293C21390BD800551684 /* Sources */,
 				B49A293D21390BD800551684 /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = swiftDelegate;
+			name = swiftPassValue;
 			productName = swiftDelegate;
-			productReference = B49A294021390BD800551684 /* swiftDelegate.app */;
+			productReference = B49A294021390BD800551684 /* swiftPassValue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B49A293B21390BD800551684 /* Build configuration list for PBXProject "swiftDelegate" */;
+			buildConfigurationList = B49A293B21390BD800551684 /* Build configuration list for PBXProject "swiftPassValue" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B49A293F21390BD800551684 /* swiftDelegate */,
+				B49A293F21390BD800551684 /* swiftPassValue */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49A294E21390BD900551684 /* LaunchScreen.storyboard in Resources */,
+				B4B05DA9213D141D00BC3F4A /* Default-568h@2x.png in Resources */,
 				B49A294B21390BD900551684 /* Assets.xcassets in Resources */,
 				B49A294921390BD800551684 /* Main.storyboard in Resources */,
 			);
@@ -289,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = swiftDelegate/Info.plist;
+				INFOPLIST_FILE = swiftPassValue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = swiftDelegate/Info.plist;
+				INFOPLIST_FILE = swiftPassValue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B49A293B21390BD800551684 /* Build configuration list for PBXProject "swiftDelegate" */ = {
+		B49A293B21390BD800551684 /* Build configuration list for PBXProject "swiftPassValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B49A295021390BD900551684 /* Debug */,
@@ -330,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B49A295221390BD900551684 /* Build configuration list for PBXNativeTarget "swiftDelegate" */ = {
+		B49A295221390BD900551684 /* Build configuration list for PBXNativeTarget "swiftPassValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B49A295321390BD900551684 /* Debug */,

@@ -41,5 +41,6 @@ class SecondViewController: UIViewController {
         passdelegate?.passVaule(name: name, age: age!)
         let namestring = passdelegate?.passString!(name: name!, age: age!)
         print(namestring ?? "")
+        navigationController?.popViewController(animated: true)
     }
 }
