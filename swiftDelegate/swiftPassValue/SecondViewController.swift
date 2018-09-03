@@ -35,12 +35,6 @@ class SecondViewController: UIViewController {
 
         print(age ?? 0)
 
-        let backButton: UIButton = UIButton.init(type: .custom)
-        backButton.frame = CGRect.init(x: 100, y: 300, width: 175, height: 100)
-        backButton.backgroundColor = .red
-        backButton.setTitle("返回", for: .normal)
-        backButton.setTitleColor(.white, for: .normal)
-        backButton.addTarget(self, action: #selector(backAction), for: .touchUpInside)
         view.addSubview(backButton)
     }
 
@@ -63,4 +57,15 @@ class SecondViewController: UIViewController {
 
         navigationController?.popViewController(animated: true)
     }
+
+
+    let backButton: UIButton = {
+        let backButton = UIButton.init(type: .custom)
+        backButton.frame = CGRect.init(x: 100, y: 300, width: 175, height: 100)
+        backButton.backgroundColor = .red
+        backButton.setTitle("返回", for: .normal)
+        backButton.setTitleColor(.white, for: .normal)
+        backButton.addTarget(self, action: #selector(backAction), for: .touchUpInside)
+        return backButton
+    }()
 }
