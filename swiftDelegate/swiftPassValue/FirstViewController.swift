@@ -23,9 +23,21 @@ class FirstViewController: UIViewController,passValueDelegate {
 
     var nameAge: String?
 
+
+
+    deinit {//移除通知
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name(rawValue: "NotificationPassValue"), object: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        NotificationCenter.default.addObserver(self, selector: #selector(PassValue), name: NSNotification.Name(rawValue: "NotificationPassValue"), object: nil)
+    }
+
+    @objc func PassValue(sender: NSNotification) -> () {
+        let name: String = "通知传值：" + (sender.object as! String)
+        print(name)
     }
 
     @IBAction func tipPush(_ sender: Any) {
@@ -35,6 +47,10 @@ class FirstViewController: UIViewController,passValueDelegate {
         secondVC.age = 48
         secondVC.passdelegate = self
         navigationController?.pushViewController(secondVC, animated: true)
+        secondVC.passclouse = {(name: String) -> () in
+            print(name)
+        }
+
     }
 
     func passVaule(name: String?, age: Int) {
